@@ -19,7 +19,9 @@ jobs:
         make install
     - name: Lint with pylint
       run: |
+        cd hello_test/
         make lint
     - name: Test with pytest
       run: |
+        cd hello_test/
         make test
