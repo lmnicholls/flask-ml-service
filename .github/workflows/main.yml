@@ -15,6 +15,7 @@ jobs:
         python-version: 3.7
     - name: Install dependencies
       run: |
+        cd hello_test/
         make install
     - name: Lint with pylint
       run: |
