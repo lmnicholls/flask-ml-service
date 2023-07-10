@@ -1,7 +1,7 @@
-Flask== 2.2.2
+Flask
 wheel
-pandas==1.5.2
-scikit-learn==1.0.2
-joblib==1.2.0
-pylint==2.13.7
-pytest==7.1.2
+pandas
+scikit-learn
+joblib
+pylint
+pytest
