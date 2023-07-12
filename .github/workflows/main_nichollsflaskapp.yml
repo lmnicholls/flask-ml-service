@@ -17,13 +17,10 @@ jobs:
         python-version: 3.7
     - name: Install dependencies
       run: |
-        cd flask-sklearn/
         make install
     - name: Lint with pylint
       run: |
-        cd flask-sklearn/
         make lint
     - name: Test with pytest
       run: |
-        cd flask-sklearn/
         make test

@@ -40,7 +40,6 @@ stages:
       displayName: 'Use Python $(pythonVersion)'
     
     - script: |
-        cd flask-sklearn/
         python -m venv antenv
         source antenv/bin/activate
         python -m pip install --upgrade pip
@@ -49,7 +48,6 @@ stages:
       workingDirectory: $(projectRoot)
 
     - script: |
-        cd flask-sklearn/
         python -m venv antenv
         source antenv/bin/activate
         make install
