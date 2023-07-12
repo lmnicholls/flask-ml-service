@@ -5,4 +5,4 @@ A sample Flask application to showcase the Azure Pipeline.
 Python 3.7
 
 ## TEST
-Adding a change to test connection
+Adding a change to test
