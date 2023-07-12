@@ -3,11 +3,11 @@
 # Change python version to one thats appropriate for your application.
 # https://docs.microsoft.com/azure/devops/pipelines/languages/python
 
-trigger:
-- master
-
 pool:
   name: RELIAS-R90VR4HC
+
+trigger:
+- master
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
