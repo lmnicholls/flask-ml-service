@@ -4,7 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/python
 
 pool:
-  name: RELIAS-R90VR4HC
+  name: Default
 
 trigger:
 - master
