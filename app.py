@@ -37,8 +37,8 @@ def predict():
         LOG.info("JSON payload: %s json_payload")
         return "Model not loaded"
 
-    # json_payload = request.json
-    # LOG.info("JSON payload: %s json_payload")
+    json_payload = request.json
+    LOG.info("JSON payload: %s json_payload")
     # inference_payload = pd.DataFrame(json_payload)
     # LOG.info("inference payload DataFrame: %s inference_payload")
     # scaled_payload = scale(inference_payload)
