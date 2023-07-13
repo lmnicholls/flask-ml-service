@@ -6,7 +6,7 @@ class MyUser(HttpUser):
     
     @task(1)
     def predicttest(self):
-        self.client.post("http://localhost:5000/predict", {
+        self.client.post("http://localhost:5000/predict", json={
             "CHAS":{
             "0":0
             },
