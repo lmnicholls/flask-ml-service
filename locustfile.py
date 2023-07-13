@@ -6,4 +6,4 @@ class MyUser(HttpUser):
     
     @task
     def predicttest(self):
-        self.client.post("https://localhost:5000/predict")
+        self.client.post("http://localhost:5000/predict")
