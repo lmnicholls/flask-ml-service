@@ -6,7 +6,7 @@
 #     host = "https://nichollsflaskapp.azurewebsites.net"
     
 #     @task
-#     def predict(self):
+#     def predicttest(self):
 #         payload = {
 #             "CHAS":{
 #                 "0":0
