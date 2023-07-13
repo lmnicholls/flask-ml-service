@@ -44,7 +44,7 @@ def predict():
     prediction = list(clf.predict(scaled_payload))
     return jsonify({'prediction': prediction})
 
-@app.route("/test")
+@app.route("/test", methods=['POST'])
 def test():
     return jsonify({'prediction': "prediction"})
 
