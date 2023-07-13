@@ -44,5 +44,9 @@ def predict():
     prediction = list(clf.predict(scaled_payload))
     return jsonify({'prediction': prediction})
 
+@app.route("/test")
+def test():
+    return jsonify({'prediction': "prediction"})
+
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000, debug=True)
