@@ -5,25 +5,12 @@ class MyUser(HttpUser):
     # Define wait time between tasks
     wait_time = between(1, 5)
     
+    # Test for get endpoint
     @task(1)
-    def predicttest(self):
-        self.client.post("http://localhost:5000/predict", json={
-            "CHAS":{
-            "0":0
-            },
-            "RM":{
-            "0":6.575
-            },
-            "TAX":{
-            "0":296.0
-            },
-            "PTRATIO":{
-            "0":15.3
-            },
-            "B":{
-            "0":396.9
-            },
-            "LSTAT":{
-            "0":4.98
-            }
-        }, headers={"content-type": "application/json"})
+    def test1(self):
+        self.client.get("http://localhost:5000")
+    
+    # Test for post endpoint
+    @task(2)
+    def test2(self):
+        self.client.post("http://localhost:5000/predict")
