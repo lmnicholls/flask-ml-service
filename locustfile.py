@@ -1,3 +1,4 @@
+import time
 from locust import HttpUser, task, between
 
 class MyUser(HttpUser):
@@ -25,4 +26,4 @@ class MyUser(HttpUser):
             "LSTAT":{
             "0":4.98
             }
-        })
+        }, headers={"content-type": "application/json"})
