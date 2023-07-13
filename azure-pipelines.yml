@@ -23,7 +23,7 @@ variables:
   projectRoot: $(System.DefaultWorkingDirectory)
   
   # Python version: 3.7
-  pythonVersion: '3.8.10'
+  pythonVersion: '3.7'
 
 stages:
 - stage: Build
@@ -40,7 +40,6 @@ stages:
       displayName: 'Use Python $(pythonVersion)'
     
     - script: |
-        python --version
         python -m venv antenv
         source antenv/bin/activate
         python -m pip install --upgrade pip
