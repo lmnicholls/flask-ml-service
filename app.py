@@ -28,6 +28,7 @@ def home():
 def predict():
     # Performs an sklearn prediction
     try:
+        LOG.info("In the TRY block")
         # Load pretrained model as clf. Try any one model. 
         clf = joblib.load("./Housing_price_model/LinearRegression.joblib")
         # clf = joblib.load("./Housing_price_model/StochasticGradientDescent.joblib")
