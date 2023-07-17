@@ -36,4 +36,4 @@ class MyUser(HttpUser):
             }
         }
         
-        self.client.post("http://localhost:5000/predict",  data=payload, headers=headers)
+        self.client.post("http://localhost:5000/predict", data=payload, headers=headers)
