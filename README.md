@@ -17,6 +17,8 @@ Steps:
 
 ### Architectural Diagrams
 
+*Images taken from Udacity DevOps program
+
 ![CI Diagram](https://raw.githubusercontent.com/lmnicholls/flask-ml-service/main/Images/ci-diagram.png)
 With this setup, code is able to be tested automatically with Github Actions.
 
