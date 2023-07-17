@@ -8,15 +8,14 @@ class MyUser(HttpUser):
     @task(1)
     def test1(self):
         self.client.get("http://localhost:5000")
-    
-    # Test for post endpoint
-    # @task(2)
-    # def test2(self):
-    #     self.client.post("http://localhost:5000/predict")
 
     @task(2)
     def test2(self):
-        self.client.post("http://localhost:5000/predict", {
+        headers = {
+            'Content-Type': 'application/json'
+        }
+        
+        payload = {
             "CHAS":{
             "0":0
             },
@@ -34,4 +33,7 @@ class MyUser(HttpUser):
             },
             "LSTAT":{
             "0":4.98
-        }}, headers={'Content-Type': 'application/json'})
+            }
+        }
+        
+        self.client.post("http://localhost:5000/predict",  data=payload, headers=headers)
