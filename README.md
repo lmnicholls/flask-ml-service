@@ -10,8 +10,6 @@ Steps:
 
 ## Project Plan
 
-<TODO: Project Plan
-
 * A link to a [Trello](https://trello.com/b/mgbM0QV5/udacity-project-2) board for the project
 * A link to a [spreadsheet](https://docs.google.com/spreadsheets/d/1V2cy8WjRHUGpVEoUbSiUSh5qYBpkyyxbSuYpjcarDEg/edit#gid=1348135932) that includes the original and final project plan.
 
@@ -116,7 +114,7 @@ When a change event is pushed to GitHub, it will kick off Azure Pipelines which 
    1. Run the locust file from within your repo using `locust -f locustfile.py --web-port 8079`.
    2. Within the Bash shell, click on the Web Preview button and configure to port 8079. Configure settings and click Start swarming.
    ![Locust](https://raw.githubusercontent.com/lmnicholls/flask-ml-service/main/Images/../../../../../../Images/Locust.png)
-   3. In the Python app.py Bash shell you will see the hits to your web app. 
+   3. In the Python app.py Bash shell you will see the hits to your web app.
 3. Results will look something like this:
 ![Locust Results](https://raw.githubusercontent.com/lmnicholls/flask-ml-service/main/Images/../../../../../../Images/LocustfileTest.png)
 
@@ -124,6 +122,6 @@ When a change event is pushed to GitHub, it will kick off Azure Pipelines which 
 
 Enhancements could include an improved azure web app UI and additional end points to test.
 
-## Demo 
+## Demo
 
 Link to [Demo](https://share.vidyard.com/watch/Ph3x3BYjRV8b2HnA4Gjwap?)
