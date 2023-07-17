@@ -12,7 +12,8 @@ class MyUser(HttpUser):
     @task(2)
     def test2(self):
         headers = {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            'Accept': '*/*'
         }
         
         payload = {
