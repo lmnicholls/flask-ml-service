@@ -19,9 +19,9 @@ Steps:
 
 * Architectural Diagrams
 
-![CI Diagram](Images\ci-diagram.png)
-![Azure Cloud Shell Diagram](Images\azure-cloud-shell.png)
-![CD Diagram](Images\cd-diagram.png)
+![CI Diagram](https://raw.githubusercontent.com/lmnicholls/flask-ml-service/main/Images/ci-diagram.png)
+![Azure Cloud Shell Diagram](https://raw.githubusercontent.com/lmnicholls/flask-ml-service/main/Images/azure-cloud-shell.png)
+![CD Diagram](https://raw.githubusercontent.com/lmnicholls/flask-ml-service/main/Images/cd-diagram.png)
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
