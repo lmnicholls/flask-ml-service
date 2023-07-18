@@ -54,6 +54,7 @@ When a change event is pushed to GitHub, it will kick off Azure Pipelines which 
    7. ![Passing make all](https://raw.githubusercontent.com/lmnicholls/flask-ml-service/main//Images/MakeAllPassingTests4.png)
 
 ### Configure GitHub Actions
+![Github Actions](https://github.com/lmnicholls/flask-ml-service/actions/workflows/main_nichollsflaskapp.yml/badge.svg)
 
 1. In your Github repository, enable GitHub Actions.
 ![Github Actions](https://raw.githubusercontent.com/lmnicholls/flask-ml-service/main//Images/NichollsP2_Screenshot_GitHubActions.png)
